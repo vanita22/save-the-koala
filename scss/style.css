@@ -1,0 +1,23 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+
+
+.navbar{
+	background-color: transparent;
+	
+}
+
+a{
+	color: white;
+	
+}
+
+.menus{
+	background-image: url(../img/portada.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	
+}
