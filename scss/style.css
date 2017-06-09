@@ -372,3 +372,24 @@ i{
 	}
 }
 
+/*footer*/
+
+footer{
+	background-color: #41521F;
+	width: 100%;
+	height: auto;
+}
+
+#box-6{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#texto5{
+	color: #A89F68;
+}
+
+#texto6{
+	color: white;
+}
+
