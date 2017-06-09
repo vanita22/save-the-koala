@@ -243,6 +243,7 @@ army green: 41521F;
 .box-4{
 	width: 100%;
 	height: auto;
+	display: flex;
 }
 .box-4 #caja4{
 	width: 1000px;
@@ -276,4 +277,98 @@ i{
 	border-style: none;
 }
 
+@media (max-width: 1024px){
+	.box-4{
+		margin-left: -140px;		
+	}
+	#caja5{
+		width: auto;		
+	}
+}
+
+/*caja cinco*/
+
+.box-5{
+	background-color: #A89F68;
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+.box-5 #caja6{
+	width: 1100px;
+	margin-top: 100px;
+	border-style: none;
+}
+
+.box-5 #caja7{
+	margin-top: -200px;
+	margin-left: -200px;	
+}
+
+
+.box-5 #texto4 {
+	color: #41521F;
+	text-align: center;
+	font-size: 25px;
+	background-color: transparent;
+	border-style: none;
+}
+
+
+#peso{
+	color: white;
+	display: flex;	
+	font-size: 20px;
+	margin-left: 100px;
+}
+
+.box-5 #grand{
+	font-size: 80px;
+	margin-left: 1px;	
+}
+
+.box-5 #peque{
+	font-size: 14px;
+	color: white;	
+}
+
+
+.box-5 .card{
+	border-style: none;
+}
+
+.linea{
+	width: 100%;
+	border: 1px solid white;
+	margin-bottom: 3px;
+}
+
+#titulo{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.box-5 .btn-success {
+    color: #fff;
+    background-color: #41521F;
+    border-color: #41521F;
+}
+
+
+@media (max-width: 1024px){
+	.box-5{
+		margin-left: -140px;
+		width: auto;
+	}
+	#caja7{
+		width: auto;
+	}
+	#caja8{
+		margin-top: 20px;
+	}
+	#texto4{
+		margin-bottom: 200px;
+	}
+}
 
