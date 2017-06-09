@@ -75,6 +75,9 @@ army green: 41521F;
 		width: 290px;		
 		display: flex;		
 	}
+	.navbar-toggler-right{
+		color: white;
+	}
 }
 
 /*bienvenidos*/
@@ -86,6 +89,7 @@ army green: 41521F;
 	margin-top: 250px;
 	font-weight: bold; 
 	display: flex;
+	border-style: none;
 }
  
 .card h4{
