@@ -64,6 +64,19 @@ army green: 41521F;
 	margin-right: 55px;	
 }
 
+.menus .card-text{
+	color: white;
+}
+
+@media (max-width: 700px){
+	.menus .card{
+		margin-left: 5px;
+		margin-top: 90px;
+		width: 290px;		
+		display: flex;		
+	}
+}
+
 /*bienvenidos*/
 
 .card{
@@ -80,7 +93,7 @@ army green: 41521F;
 	font-weight: bold;
 }
 
-/*caja dos*/
+/*caja uno*/
 
 #caja-1 .card-img-top{
 	top: 0px;	
@@ -102,11 +115,7 @@ army green: 41521F;
     border-style: none;   
 }
 
-.box-1 h2, p{
-    margin-bottom: 10px;
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
+.box-1 #caja2 h2, .card-text{    
     color: black;    
 }
 
@@ -156,8 +165,54 @@ army green: 41521F;
 	}
 }
 
+/*caja dos*/
 
+.box-2{
+	background-color: #A89F68;
+	width: 100%;
+	height: 70vh;
+	display: flex;		
+}
 
+.box-2 .card{
+	margin-top: 70px;
+	border-style: none;	
+}
+
+.box-2 h3{   
+    color: #41521F;
+}
+
+.box-2 .btn-success {
+    color: #fff;
+    background-color: #41521F;
+    border-color: #41521F;
+}
+
+.box-2 h2, #texto {
+    color: white;
+}
+
+.box-2 .card-img-top{
+	border: 10px solid white;
+}
+
+@media (max-width: 1024px){
+	.box-2{
+		height: auto;
+	}
+	.box-2 .card{
+		width: 280px;
+		margin-left: 30px;
+		margin-top: 20px;
+		flex-direction: column;
+	}
+	.box-2 .card-img-top{
+		width: 270px;
+	}
+}
+
+/*caja tres*/
 
 
 
