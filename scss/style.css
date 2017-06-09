@@ -238,4 +238,42 @@ army green: 41521F;
 	}
 }
 
+/*caja cuatro*/
+
+.box-4{
+	width: 100%;
+	height: auto;
+}
+.box-4 #caja4{
+	width: 1000px;
+	margin-top: 100px;
+	border-style: none;
+}
+
+.box-4 #caja5{
+	margin-top: -200px;
+	margin-left: -140px;	
+}
+
+.box-4 #texto3{
+	color: #A89F68;
+	text-align: center;
+	font-size: 25px;
+	background-color: transparent;
+	border-style: none;
+}
+
+i{
+	color: #A89F68;
+	display: flex;	
+}
+
+.box-4 .fa{
+	font-size: 70px;
+}
+
+.box-4 .card{
+	border-style: none;
+}
+
 
